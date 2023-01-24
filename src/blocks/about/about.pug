@@ -2,8 +2,10 @@
     +b.about
         +e("h2").title About<br> 
         +e.description This project is a part of PRJCTR - Creative & Tech<br> Online Institute course. But we always appreciate to get<br> our feedback and add new features to DAILY-DO.<br><br> You can open PRJCTR Course page bellow, or leave<br> comment at Produc Hunt page:
-        +e("a").logotypes-box(href="#")
-            +e("img").logotypes-box(src="assets/prjctr-logo.svg")
-            +e("img").logotypes-box(src="assets/product-hunt-logo.svg" style="margin-left: 50px")
+        
+        +b.logotypes-box(href="#")
+            +e.logotypes-item
+                +e("img").logotypes-item(src="assets/prjctr-logo.svg" style="margin-right: 50px")
+                +e("img").logotypes-item(src="assets/product-hunt-logo.svg" style="margin-right: 50px")
         +e.animation  
             <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_q4400lb7.json" background="transparent" speed="1" loop autoplay></lottie-player>
