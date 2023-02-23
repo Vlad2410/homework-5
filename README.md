@@ -1,4 +1,4 @@
-## Manual
+## Manual111
 ### How to launch a project from scratch
 - Install [Node.js](https://nodejs.org/) (NPM included in Node.js installer).
 - Clone project local ```git clone git@github.com:stanhr/daily-do-frontend.git```
